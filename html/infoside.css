@@ -1,0 +1,62 @@
+div{
+  align-self: center;
+
+}
+
+div ul li{
+  list-style: none;
+}
+
+body{
+  background: #e6e6e6;
+}
+
+h1{
+  margin-left: 40px;
+  font-family: Arial;
+  border-bottom: solid 2px #000;
+  width: 540px;
+}
+
+ul{
+  margin: auto;
+  line-height: 1;
+
+}
+
+ul li {
+  margin-top: 10px;
+  font-family: arial;
+  font-size: 17.5px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+#tilbake {
+  margin-left: 275px;
+  max-width: 200px;
+  margin-top: 200px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font: arial;
+  font-weight: 550;
+  font-size: 15px;
+  padding-top: 20px;
+  font-family: Arial;
+}
+
+
+
+
+.tekst {
+  width: 600px;
+  margin: auto;
+  margin-top: 35px;
+  border: solid 3px #FFF;
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+}

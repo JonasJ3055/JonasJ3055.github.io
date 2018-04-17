@@ -1,0 +1,159 @@
+
+
+body {
+  background-color: #e6e6e6;
+  font-family:'Helvetica Neue', Helvetica, sans-serif, 'code-light', 'code-bold', 'Candal';
+}
+
+img{
+  width:800px;
+  height: auto;
+  position: absolute;
+  z-index: -100;
+}
+
+#x{
+  width:20px;
+  height: auto;
+  margin-top: 270px;
+  margin-left: 890px;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: #000;
+}
+
+.overskrift{
+  font-size: 20px;
+}
+
+div ul{
+  list-style: none;
+}
+
+
+div ul li a{
+  color: #12121a;
+  padding: 10px;
+  margin-left: -10px;
+}
+
+div ul li ul{
+  display: block;
+  padding: 0px;
+}
+
+
+div ul li ul li {
+  width: 430px;
+  margin-top: -23px;
+  margin-left: 80px;
+  border: solid 2px #FFF;
+  background-color: #FFF;
+  border-radius: 13px;
+  padding: 10px;
+  padding-bottom: 0px;
+
+}
+
+div ul li ul li a div{
+  padding-bottom: 10px;
+}
+
+
+.one{
+  margin-top: 85px;
+  margin-left: 430px;
+  position: absolute;
+  z-index: 10px;
+
+}
+
+.two{
+  margin-top: 320px;
+  margin-left: 500px;
+  position: absolute;
+}
+
+.three{
+  margin-top: 455px;
+  margin-left: 295px;
+  position: absolute;
+}
+
+.four{
+  margin-top: 320px;
+  margin-left: 85px;
+  position: absolute;
+}
+
+.five{
+  margin-top: 85px;
+  margin-left: 120px;
+  position: absolute;
+  text-align: inherit;
+}
+
+
+.one ul li ul li{
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.two ul li ul li{
+  margin-top: -140px;
+  margin-left: 180px;
+}
+
+.three ul li ul li{
+  margin-top: -275px;
+  margin-left: 385px;
+}
+
+.four ul li ul li{
+  margin-top: -160px;
+  margin-left: 595px;
+}
+
+.five ul li ul li{
+  margin-top: 100px;
+  margin-left: 560px;
+}
+
+
+.testing{
+  position: absolute;
+  margin-left: 700px;
+}
+
+#trykk {
+  padding-top: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 450;
+  font-size: 10px;
+  text-align: center;
+}
+
+#merinfo {
+
+  text-transform: uppercase;
+  font: 'Candal' ;
+  font-weight: 550;
+  text-align: center;
+  color: #C70808;
+  font-size: 15px;
+  margin-top: -7px;
+  padding-bottom: 0px;
+
+}
+
+#merinfo:hover {
+  color: #A00707;
+}
+
+.infohead{
+  font-weight: bold;
+}

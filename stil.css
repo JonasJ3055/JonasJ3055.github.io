@@ -1,0 +1,326 @@
+
+body {
+	background-color: #edede5;
+	font-family:'Helvetica Neue', Helvetica, sans-serif, 'code-light', 'code-bold', 'Candal';
+	width: 100%;
+	margin: 0;
+	}
+
+	@font-face {
+		font-family:"geometos";
+		src: url('geometos.ttf') format('ttf');
+	}
+
+	@font-face {
+		font-family: "Renogare";
+		src: url('.fonts/RenogareSoft-Regular.ttf') format('ttf');
+	}
+
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	float: ;
+	font-family: 'Geometos';
+}
+
+nav ul {
+	float: right;
+	margin-right: ;
+	margin-top: 10px;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+	color: #fff;
+}
+
+nav ul li a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+
+}
+
+nav ul li a:hover::before {
+	width: 60%;
+
+}
+
+nav ul li:hover {
+		color: #fff;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	font-size: 13px;
+	padding: 20px ;
+	text-decoration: none;
+}
+
+nav ul li ul {
+	margin-top: -2px;
+	display: none;
+	position: absolute;
+	background-color: #000;
+	padding: 8px;
+	border-radius: 2.4px;
+	border-bottom: 3px solid #12121a;
+	border-right: 3px solid #12121a;
+	border-left: 3px solid #12121a;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+nav ul li ul li {
+	width: 180px;
+	border-radius: 6px;
+
+}
+
+nav ul li ul li a {
+	padding:12px 14px;
+}
+
+nav ul li ul li a:hover {
+	background-color:#000;
+}
+
+nav ul li ul li a::before {
+	display: none;
+}
+
+
+.container {
+	width: 980px;
+	border: 0;
+	margin: 0 auto;
+	margin-top: 0px;
+}
+
+
+.container1 {
+	width: 980px;
+
+	margin: 0 auto;
+	margin-top: 0px;
+	}
+
+.header {
+	background:#000;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	position: fixed;
+	border-bottom: 3px solid #12121a;
+}
+
+.logo {
+	float: left;
+}
+
+div img {
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 217px;
+}
+
+h1 a {
+	font: 'code-bold';
+	font-weight: normal;
+	text-decoration: none;
+}
+
+h1 span {
+	font:'code-light';
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+.infotekst {
+	margin-right: 500px;
+	margin-left: 20px;
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: 550;
+}
+
+.info {
+	float: right;
+	font-size: 16px;
+	margin-top: 30px;
+	font-family:'Geometos';
+	margin-right: 40px;
+}
+
+.info2 {
+	font-size: 15px;
+	margin-top: 46px;
+	font-family: Arial;
+}
+
+.info3 {
+	margin-top: 35px;
+	font-family: Arial;
+	font-size: 15px;
+}
+	h2 {
+		text-decoration: strong;
+		margin-left: 0;
+		margin-right: 50%;
+		margin-top: 35px;
+		padding-bottom: 10px;
+		text-align: left;
+	}
+
+	h3 {
+		margin: auto;
+	}
+
+	h4 {
+		text-decoration: none;
+		font-weight: 100;
+		font-size: 25px;
+	}
+
+.overskrift {
+	margin-bottom: 0px;
+	margin-top:  10px;
+	margin-left: 15px;
+	font-family: 'Geometos';
+	text-align: center;
+}
+
+.overskrift1 {
+	margin-top: 130px;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.hr1 {
+	margin-top: 50px;
+	width: 950px;
+	margin-left: 15px;
+}
+
+.line {
+	width: 950px;
+	margin-left: 15px;
+}
+
+.innhold {
+	margin-top: 30px;
+	width: 980px;
+	}
+
+.wrapper {
+	width: 1000px;
+	height: 100%;
+	margin-top: 140px;
+	background-color: #edede5;
+	padding-top: 0;
+	padding-bottom: 5px;
+	border: 3px solid #12121a;
+	border-radius: 15px;
+}
+
+.bodytekst {
+	margin-left: ;
+	margin-right: ;
+}
+.side {
+	background-color: #edede5;
+}
+
+.sideinnhold {
+	margin: 0 auto;
+	margin-top: 140px;
+	width: 960px;
+	margin-right: auto;
+}
+
+.box1 {
+	margin-left: 200px;
+	margin-top: -81px;
+	margin-bottom: 45px;
+	background-color: #edede5;
+	padding: 10px;
+	width: 650px;
+	border-radius: 15px;
+	border: 3px solid #12121a;
+}
+
+.box {
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-bottom: 45px;
+	background-color: #edede5;
+	padding: 10px;
+	width: 650px;
+	border-radius: 15px;
+	border: 2px solid #000;
+}
+
+#dato {
+	font-family: "mada";
+	margin-bottom: 2px;
+}
+
+#overskrift {
+	font-family: 'Geometos', sans-serif;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: solid 2px #000;
+	width: 190px;;
+}
+
+.tekst {
+	margin-top: 0px;
+	font-family: 'Arial';
+	font-size: 15px;
+	line-height: 1.2;
+
+}
+
+.nyttt {
+	top: 190px;
+	left: 320px;
+
+}
+
+.nytt {
+	text-decoration: none;
+	color: #12121a;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 45px;
+	position: static;
+	font-family: 'Geometos';
+	font-size: 18px;
+}
+
+.sideheader {
+	width: 175px;
+	height: 75px;
+	border: 3px solid #12121a;
+	border-radius: 8px;
+}
+
+.sideheader:hover {
+	border: 3px solid #edede5;
+	background-color: #12121a;
+	text-decoration-color: #edede5;
+}

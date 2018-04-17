@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title> Blog YFF Jonas</title>
+    <link rel="stylesheet" type="text/css" href="stil.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Mada' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Biryani:900" rel="stylesheet">
+    <meta charset="utf-8"/>
+</head>
+
+<body class="side">
+
+  <div class="header">
+    <div class="container">
+        <div class="logo">
+          <a href="side.html">
+            <img src="blogg.png" alt="logo">
+          </a>
+        </div>
+          <nav>
+            <ul>
+              <li><a href="side.html">INNLEGG</a></li>
+              <li><a href="nesteside.html">OM MEG</a></li>
+              <li><a href="#">ANNET</a>
+                <ul>
+                  <li><a href="tside.html">TEST SIDE</a></li>
+                  <li><a href="index.html">GAMLE SIDE</a></li>
+                </ul>
+            </li>
+            </ul>
+          </nav>
+      </div>
+  </div>
+<div class="sideinnhold">
+
+<div class="box">
+  <div class="boxinnhold1">
+    <div class="boxheader1">
+      <p id=dato>31 OKTOBER 2017</p>
+      <p id=overskrift>UKE 7 YFF</p>
+    </div>
+    <div class="tekst">
+      <p>Idag har jeg jobbet med tanking av pcer og overført brukerfiler fra en pc som det var
+         noe galt med til en som var tanket slik at vi kunne se på den dårlige pcen. sett gjennom
+          en harddisk om alle filene på disken var på plex serveren til skolen. når det ikke var mye å gjøre så jeg vidre på html og css.</p>
+    </div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="boxinnhold2">
+    <div class="boxheader">
+      <p id=dato>24 OKTOBER 2017</p>
+      <p id=overskrift>UKE 6 YFF</p>
+    </div>
+    <div class="tekst">
+      <p>I dag fikset vi prosjektor klar til noen. Skrudd på laptop, sett på M.2 lagringsplass.
+         åpnet ødelagt prosjektor prøvd å fikse den. sett mer på html og css. lært hovrdan man ripper filmer til plex server.</p>
+    </div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="boxinnhold2">
+    <div class="boxheader">
+      <p id=dato>17 OKTOBER 2017</p>
+      <p id=overskrift>UKE 5 YFF</p>
+    </div>
+    <div class="tekst">
+      <p>Idag har jeg vært rundt å hjulpet til med ett par ting folk hadde problemer med. vi satte opp auditoriumet for noen,
+         hjelp en klasse med prøvemodus på itslearning, så på en printer som det var noe galt med og byttet toner på den. når
+          det ikke var noe å gjøre leste jeg litt i en bok om webutvikling og fortsatte å se på html og css .</p>
+    </div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="boxinnhold2">
+    <div class="boxheader">
+      <p id=dato>10 OKTOBER 2017</p>
+      <p id=overskrift>UKE 4 YFF</p>
+    </div>
+    <div class="tekst">
+      <p>Idag var jeg med Håvard i og fikset klart prosjektor slik at en fra DKS
+       kunne gjennomgøre opplegget sitt der, etter det var vi og byttet noen kabler
+        som var ødelagt. Deretter tanket jeg noen pcer, og fyllte ut nødvendig informasjon
+           til det. sød det var mye dødtid på kontoret idag satt jeg å lærte en del om programering,
+            så for det meste på hvilket spårk jeg kunne tenke meg å starte med og hva jeg skal gjøre først,
+             ser ut til at denne bloggen skal fortsette på en egenopprettet nettside hvis alt går som planlagt.</p>
+    </div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="boxinnhold2">
+    <div class="boxheader">
+      <p id=dato>26 SEPTEMBER 2017</p>
+      <p id=overskrift>UKE 3 YFF</p>
+    </div>
+    <div class="tekst">
+      <p>I dag sendte jeg en søknad til Kovs. i lunsjpausen ble jeg informert at jeg hadde fått plass på Asker vgs.</p>
+    </div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="boxinnhold2">
+    <div class="boxheader">
+      <p id=dato>12 SEPTEMBER 2017</p>
+      <p id=overskrift>UKE 2 YFF</p>
+    </div>
+    <div class="tekst">
+      <p>Idag har jeg sendt ut søknadder til Asker vgs, Mobildata, D-IKT og DNV GL og har fått svar av Asker vgs og Mobildata.
+         på torsdag skal jeg dra til asker for å snakke med en i IKT avdelingen der. </p>
+    </div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="boxinnhold2">
+    <div class="boxheader">
+      <p id=dato>5 SEPTEMBER 2017</p>
+      <p id=overskrift>UKE 1 YFF</p>
+    </div>
+    <div class="tekst">
+      <p>Idag hadde vi 3 oppgaver vi måtte gjøre og lever innen skolestart,  disse skulle da leveres på itslearning.
+Oppgavene dreide seg om søking av jobb i forbindelse med YFF faget.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+</body>

@@ -1,0 +1,123 @@
+body {
+  background-color: #edede5;
+  font-family:'Helvetica Neue', Helvetica, sans-serif, 'code-light', 'code-bold', 'Candal';
+}
+
+img{
+  width:800px;
+  height: auto;
+  position: absolute;
+  z-index: -100;
+}
+
+#x{
+  width:20px;
+  height: auto;
+  margin-top: 270px;
+  margin-left: 890px;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: #000;
+}
+
+.overskrift{
+  font-size: 20px;
+}
+
+div ul{
+  list-style: none;
+}
+
+
+div ul li a{
+  color: #12121a;
+}
+
+div ul li ul{
+  display: none;
+}
+
+div ul li:hover ul {
+  display: none;
+  font-family:'Helvetica Neue', Helvetica, sans-serif, 'code-light', 'code-bold', 'Candal';
+}
+
+div ul li ul li {
+  width: 300px;
+  margin-top: -23px;
+  margin-left: 80px;
+  border: solid 2px #000;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+div ul li ul li a div{
+  padding-bottom: 5px;
+}
+
+
+.one{
+  margin-top: 85px;
+  margin-left: 430px;
+  position: absolute;
+  z-index: 10px;
+}
+
+.two{
+  margin-top: 320px;
+  margin-left: 500px;
+  position: absolute;
+}
+
+.three{
+  margin-top: 450px;
+  margin-left: 310px;
+  position: absolute;
+}
+
+.four{
+  margin-top: 320px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.five{
+  margin-top: 85px;
+  margin-left: 120px;
+  position: absolute;
+}
+
+.one ul li ul li{
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.two ul li ul li{
+  margin-top: -140px;
+  margin-left: 180px;
+}
+
+.three ul li ul li{
+  margin-top: -270px;
+  margin-left: 370px;
+}
+
+.four ul li ul li{
+  margin-top: -160px;
+  margin-left: 580px;
+}
+
+.five ul li ul li{
+  margin-top: 100px;
+  margin-left: 560px;
+  padding-left: -500px;
+}
+
+
+.testing{
+  position: absolute;
+  margin-left: 700px;
+}
