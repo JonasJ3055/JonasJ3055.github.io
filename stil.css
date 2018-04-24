@@ -8,7 +8,7 @@ body {
 
 	@font-face {
 		font-family:"geometos";
-		src: url('/font/geometos.ttf') format('ttf');
+		src: url('./font/geometos.ttf') format('ttf');
 	}
 
 	@font-face {
