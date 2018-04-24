@@ -231,7 +231,7 @@ h1 span {
 	background-color: #edede5;
 	padding-top: 0;
 	padding-bottom: 5px;
-	border: 3px solid #12121a;
+	border: 3px solid #000;
 	border-radius: 15px;
 }
 
@@ -258,7 +258,7 @@ h1 span {
 	padding: 10px;
 	width: 650px;
 	border-radius: 15px;
-	border: 3px solid #12121a;
+	border: 3px solid #000;
 }
 
 .box {
@@ -288,7 +288,7 @@ h1 span {
 
 .nytt {
 	text-decoration: none;
-	color: #12121a;
+	color: #000;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 45px;
@@ -300,13 +300,13 @@ h1 span {
 .sideheader {
 	width: 175px;
 	height: 75px;
-	border: 3px solid #12121a;
+	border: 3px solid #000;
 	border-radius: 8px;
 }
 
 .sideheader:hover {
 	border: 3px solid #edede5;
-	background-color: #12121a;
+	background-color: #000;
 	text-decoration-color: #edede5;
 }
 
