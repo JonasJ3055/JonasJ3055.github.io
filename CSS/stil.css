@@ -1,19 +1,25 @@
 
-@font-face {
-	font-family:"geometos";
-	src: url(geometos.ttf);
-	font-weight: 550;
-}
-
 body {
 	background-color: #edede5;
-	font-family:'Helvetica Neue', Helvetica, sans-serif, 'code-light', 'code-bold', 'Candal', 'geometos';
+	font-family:'Helvetica Neue', Helvetica, sans-serif, 'code-light', 'code-bold', 'Candal';
 	width: 100%;
 	margin: 0;
 	}
 
+	@font-face {
+		font-family:"geometos";
+		src: url('font/geometos.ttf') format('ttf');
+	}
 
+	@@font-face {
+		font-family: 'badam' ;
+		src: url('badam.ttf') format('ttf');
+	}
 
+	@font-face {
+		font-family: "Renogare";
+		src: url('.fonts/RenogareSoft-Regular.ttf') format('ttf');
+	}
 
 nav {
 	width: 100%;
@@ -272,6 +278,18 @@ h1 span {
 	border: 2px solid #000;
 }
 
+#dato {
+	font-family: "mada";
+	margin-bottom: 2px;
+}
+
+#overskrift {
+	font-family: 'badam', sans-serif;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 .tekst {
 	margin-top: 0px;
 	font-family: 'Arial';
@@ -308,16 +326,4 @@ h1 span {
 	border: 3px solid #edede5;
 	background-color: #12121a;
 	text-decoration-color: #edede5;
-}
-
-#dato {
-	font-family: "mada";
-	margin-bottom: 2px;
-}
-
-#overskrift {
-	font-family: 'geometos', sans-serif;
-	font-size: 30px;
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
