@@ -8,7 +8,7 @@ body {
 
 	@font-face {
 		font-family:"geometos";
-		src: url('../JonasJ3055.github.io/geometos.ttf') format('ttf');
+		src: url('/font/geometos.ttf') format('ttf');
 	}
 
 	@font-face {
@@ -21,7 +21,7 @@ nav {
 	height: 60px;
 	background-color: #000;
 	float: ;
-	font-family: 'Geometos';
+	font-family: 'geometos';
 }
 
 nav ul {
@@ -161,7 +161,7 @@ h1 span {
 	float: right;
 	font-size: 16px;
 	margin-top: 30px;
-	font-family:'Geometos';
+	font-family:'geometos';
 	margin-right: 40px;
 }
 
@@ -199,7 +199,7 @@ h1 span {
 	margin-bottom: 0px;
 	margin-top:  10px;
 	margin-left: 15px;
-	font-family: 'Geometos';
+	font-family: 'geometos';
 	text-align: center;
 }
 
@@ -279,7 +279,7 @@ h1 span {
 }
 
 #overskrift {
-	font-family: 'Geometos', sans-serif;
+	font-family: 'geometos', sans-serif;
 	font-size: 30px;
 	margin-top: 0px;
 	margin-bottom: 0px;
